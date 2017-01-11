@@ -1,0 +1,10 @@
+﻿  animatedsprite.cpp
+c:\users\abu\downloads\cavestory\game\cavestory\animatedsprite.cpp(66): warning C4018: '<': signed/unsigned mismatch
+c:\users\abu\downloads\cavestory\game\cavestory\animatedsprite.cpp(89): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\abu\downloads\cavestory\game\cavestory\animatedsprite.cpp(90): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  game.cpp
+  Cavestory.vcxproj -> C:\Users\Abu\Downloads\CaveStory\game\Cavestory\Debug\Cavestory.exe
+  Cavestory.vcxproj -> C:\Users\Abu\Downloads\CaveStory\game\Cavestory\Debug\Cavestory.pdb (Partial PDB)
