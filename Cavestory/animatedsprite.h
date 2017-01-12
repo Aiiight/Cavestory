@@ -26,7 +26,7 @@ public:
 
 
 	// void setupAnimation: required function that sets up all animations for a sptire
-	virtual void setupAnimation();
+	
 
 protected:
 	double timeToUpdate;
@@ -42,7 +42,10 @@ protected:
 
 	void setVisible(bool visible);
 
-	virtual void animationDone(std::string currentAnimation);
+	virtual void animationDone(std::string currentAnimation) = 0;
+
+	virtual void setupAnimation() = 0;
+
 private:
 	std::map<std::string, std::vector<SDL_Rect> > animations;
 	std::map<std::string, Vector2> offsets;
